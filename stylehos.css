@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap'); 
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0  .5rem  1.5rem  rgba(0,0,0,.1);
+    height: 84px;
+    width: 100%;
+}
+
+.hesder ul{
+    text-align: left;
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+    padding-top:200px;
+    
+}
+.banner-section-bg-container{
+    
+        height: 100vh;
+        width: 100%;
+        background-image: url(hospital\ background.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+.banner-heading{
+    text-align: center;
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+    padding-top:200px;
+}
+.banner-caption{
+    color:#f5f7fa;
+    font-family:"Roboto";
+    font-size:"44px";
+    font-weight:300;
+}
+.img-zoom-result {
+    border: 1px solid #d4d4d4;
+    /*set the size of result div:*/
+    width: 300px;
+    height:300px;
+}
+.image{
+    border-radius: 10px;
+}
+.button{
+    border-radius: 15px;
+    
+}
+.button-for-appointment{
+    color: white;
+    background-color: green;
+    width: 180px;
+    height: 50px;
+    border-width: 0;
+    border-radius: 20px;
+    margin-right: 10px;
+    
+}
+.login-button{
+    color: white;
+    background-color:blue;
+    width: 180px;
+    height: 50px;
+    border-width: 0;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+    
+.body{
+    margin: 0;
+    padding: 0;
+    background: url(download1.jpg);
+    background-size: 200%;
+    background-position: center;
+    font-family: sans-serif;
+   }
+   
+   .loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+   }
+   
+   .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+   }
+   
+   h1{
+       margin: 0;
+       padding: 0 0 20px;
+       text-align: center;
+       font-size: 22px;
+   }
+   
+   .loginbox p{
+       margin: 0;
+       padding: 0;
+       font-weight: bold;
+   }
+   
+   .loginbox input{
+       width: 100%;
+       margin-bottom: 20px;
+   }
+   
+   .loginbox input[type="text"], input[type="password"]
+   {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+   }
+   
+   .loginbox input[type="submit"]
+   {
+       border: none;
+       outline: none;
+       height: 40px;
+       background: #fb2525;
+       color: #fff;
+       font-size: 18px;
+       border-radius: 20px;
+   }
+   
+   .loginbox input[type="submit"]:hover
+   {
+       cursor: pointer;
+       background: #ffc107;
+       color: #000;
+   }
+   
+   .loginbox a{
+       text-align: center;
+       text-decoration: none;
+       font-size: 12px;
+       line-height: 20px;
+       color: darkgrey;
+   }
+   
+   .loginbox a:hover
+   {
+       color: #ffc107;
+   }
+   .login-section-bg-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(login\ background.jpg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+}
+#otpbody nav{
+    height: 130px;
+    margin: 0px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    #otpbody h1{
+    font-size: 3rem;
+    }
+    #otpbody div{
+    display: flex;
+    flex-direction: column;
+    margin:170px 400px;
+    height: 200px;
+    background-color: cadetblue;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    }
+    #otpbody div input{
+    border: none;
+    outline: none;
+    }
+    #otpbox{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    }
+    #otpbtn{
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    background-color:darkslateblue;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: large;
+    }
+    #otpbtn:hover{
+    background-color: aqua;
+    }
+.mainfcontainer{
+    width: 320px;
+    height: 420px;
+    background: rgb(83, 113, 113);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px; 
+}
+.signup-background{
+    height: 100vh;
+    width: 100%;
+    background-image: url(signup\ background.jpg);
+    background-size: cover;
+    background-position: center;
+    position:relative;  
+}
+   
+   
+   
+   
+   
